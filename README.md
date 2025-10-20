@@ -1,45 +1,23 @@
-# AI Evolution for Enterprise Developers — A Hands-On Readout
+# AI Evolution for Enterprise Developers — Docs
 
-## Preface
-This booklet serves experienced enterprise developers working on HR, Finance, Procurement, Legal, Admin, and internal IT systems. It provides a practical readout of AI’s evolution—from rule-based systems to modern generative AI—focused on capabilities, trade-offs, and implementation paths using open-source technologies. The goal is decision-ready guidance: when to use which approach, what failure modes to anticipate, and how to integrate safely and effectively. This is not a buyer’s guide for closed APIs; it’s a builder’s guide to assembling reliable systems.
+This repository contains a comprehensive, de-duplicated guide for enterprise developers on AI approaches from rule-based systems to Generative AI.
 
-## Evolution Tree (High-Level)
-```
-AI Evolution
-|-- Rule-Based Systems (1970s-1980s)
-|   `-- Expert systems; deterministic if-then logic
-|-- Machine Learning (1990s-2010s)
-|   |-- Supervised learning
-|   |-- Unsupervised learning
-|   `-- Reinforcement learning
-|-- Deep Learning (2010s)
-|   |-- Feedforward networks
-|   |-- Convolutional neural networks (CNNs)
-|   `-- Recurrent networks (RNN/LSTM) -> largely superseded by Transformers
-|-- Transformers (2017)
-|   `-- Attention enables long-context understanding
-`-- Generative AI (2020s)
-    |-- Large language models (LLMs)
-    |-- Code models
-    |-- Diffusion models (images)
-    `-- Multimodal models (text + image + audio)
-```
+- Canonical content lives under `docs/` and is served with MkDocs (`mkdocs serve`).
+- Original source versions are preserved in `archive/sources/`.
 
-## Evolution Timeline (At a Glance)
-- 1970s-1980s: Rule-Based Systems — deterministic and auditable; strong for compliance and policy enforcement.
-- 1990s-2010s: Machine Learning — learns from data; supervised, unsupervised, and reinforcement paradigms.
-- 2010s: Deep Learning — excels on unstructured data (images, text, audio); CNNs and RNN/LSTMs.
-- 2017: Transformers — attention mechanism enables long-context reasoning; foundation for modern LLMs.
-- 2020s: Generative AI — LLMs, code generation models, diffusion for images, and multimodal models.
+Quick start
+- Install: `pip install mkdocs`
+- Preview: `mkdocs serve`
 
-## Pragmatic Path for Enterprise Developers
-- Start simple and escalate only as needed: rule-based -> classic ML -> deep learning -> GenAI.
-- Prefer adapting high-quality pre-trained models over inventing new architectures.
-- Define quality, latency, and cost targets up front; evaluate against them continuously.
-- Build evaluation harnesses and guardrails early; test with representative enterprise data (safely).
-- Enforce privacy by design (PII handling, access controls, redaction) and thorough observability.
-- Iterate with measurable improvements and clear rollback points.
-
-## What Comes Next
-This readout will be expanded with focused deep dives on each stage (rule-based systems, classic ML, deep learning, transformers, and generative AI) covering capabilities, trade-offs, evaluation strategies, and enterprise integration patterns. For now, this high-level note provides the shared foundation for further drill-downs.
-
+Key chapters
+- Evolution overview: `docs/01-evolution.md:1`
+- Rule-based systems: `docs/02-rule-based.md:1`
+- Classic ML: `docs/03-classic-ml.md:1`
+- Deep learning: `docs/04-deep-learning.md:1`
+- Transformers: `docs/05-transformers.md:1`
+- Generative AI (RAG): `docs/06-generative-ai.md:1`
+- Tooling matrix: `docs/07-tooling.md:1`
+- Evaluation & Guardrails: `docs/08-evaluation-guardrails.md:1`
+- Governance: `docs/09-governance.md:1`
+- Future view: `docs/10-future.md:1`
+- Appendices: decision trees and ROI examples
