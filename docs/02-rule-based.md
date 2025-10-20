@@ -2,6 +2,12 @@
 
 ## What They Are
 Explicitly encoded human logic (if-then rules) rather than learned models. Deterministic, auditable, and easy to debug; ideal for compliance and policy enforcement.
+Example flow (expense approvals):
+```
+[Expense Report] → [Amount > $500?] —Yes→ [Manager Approval]
+         │                     └—No→ [Category = Travel?] —Yes→ [Manager Approval]
+         │                                               └—No→ [Auto‑Approve]
+```
 
 ## Enterprise Use Cases
 - HR

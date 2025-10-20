@@ -7,7 +7,9 @@
 ## Controls
 - Explainability where required; decision logs
 - Access controls, model/data lineage, approvals
+ - Artifacts: model cards, datasheets, DPIAs; versioned policies and prompts
 
 ## Regulation
 - Track evolving laws; maintain DPIAs and model cards
+ - Tooling: AIF360, Fairlearn (fairness/bias); SHAP/LIME (explainability)
 

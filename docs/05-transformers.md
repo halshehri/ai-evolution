@@ -2,6 +2,8 @@
 
 ## What They Are
 Self-attention enables parallel processing, long-range dependencies, and transfer learning. Foundation for modern language models across text and, increasingly, vision.
+Intuition: In a sentence like “The robot crossed the street because it was in a hurry,”
+attention links “it” back to “robot,” enabling correct reference resolution across distance.
 
 ## Enterprise Use Cases
 - HR/Admin: Policy Q&A, summarization, job description generation, feedback analysis

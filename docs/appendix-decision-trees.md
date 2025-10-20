@@ -45,7 +45,7 @@ Supervised vs. Unsupervised?
 - Supervised
   - Target continuous
     - If linear: Linear Regression
-    - Else: Decision Tree/Random Forest/Gradient Boosting/SVR/NN Regression
+    - Else: Decision Tree/Random Forest/Gradient Boosting (XGBoost/LightGBM/CatBoost)/SVR/Neural Network Regression (for large datasets)
   - Target categorical
     - Large/complex: Neural Networks/Deep Learning
     - Else: Logistic Regression/Decision Tree/Random Forest/SVM/Naive Bayes
