@@ -1,0 +1,98 @@
+Decision Tree for Choosing Machine Learning Algorithms
+
+Start
+├── Is the problem supervised or unsupervised?
+│   ├── Supervised
+│   │   ├── Is the target variable continuous or categorical?
+│   │   │   ├── Continuous
+│   │   │   │   ├── Is the relationship between features and target linear?
+│   │   │   │   │   ├── Yes: Linear Regression
+│   │   │   │   │   ├── No:
+│   │   │   │   │       ├── Decision Tree Regression
+│   │   │   │   │       ├── Random Forest Regression
+│   │   │   │   │       ├── Support Vector Regression (SVR)
+│   │   │   │   │       ├── Neural Network Regression
+│   │   │   │   │       └── Gradient Boosting (e.g., XGBoost, LightGBM)
+│   │   │   ├── Categorical
+│   │   │       ├── Is the dataset large and complex?
+│   │   │       │   ├── Yes:
+│   │   │       │   │   ├── Neural Networks
+│   │   │       │   │   └── Deep Learning (e.g., CNNs, RNNs)
+│   │   │       │   ├── No:
+│   │   │       │       ├── Logistic Regression
+│   │   │       │       ├── Decision Tree Classification
+│   │   │       │       ├── Random Forest Classification
+│   │   │       │       ├── Support Vector Machines (SVM)
+│   │   │       │       └── Naive Bayes
+│   ├── Unsupervised
+│       ├── Is the goal to find patterns or group similar data points?
+│       │   ├── Yes:
+│       │   │   ├── Clustering
+│       │   │   │   ├── K-Means
+│       │   │   │   ├── Hierarchical Clustering
+│       │   │   │   └── DBSCAN
+│       │   ├── No:
+│       │       ├── Dimensionality Reduction
+│       │       │   ├── PCA (Principal Component Analysis)
+│       │       │   └── t-SNE (t-distributed Stochastic Neighbor Embedding)
+│       │       └── Association Rule Learning
+│               ├── Apriori
+│               └── Eclat
+├── Is the problem a reinforcement learning task?
+│   ├── Yes:
+│       ├── Q-Learning
+│       ├── Deep Q-Learning
+│       ├── SARSA (State-Action-Reward-State-Action)
+│       └── Policy Gradient Methods
+
+
+From <https://d.docs.live.net/5266a0f281136bd1/02.%20Business/01.%20Career/02.%20Jobs/05.%20Mobily/17.%20Downloads/Decision_Tree_ML_Algorithms.docx> 
+
+
+
+
+• Is the problem supervised or unsupervised?
+	• Supervised
+		○ Is the target variable continuous or categorical?
+			§ Continuous
+				□ Is the relationship between features and target linear?
+					® Yes: Linear Regression
+					® No:
+						◊ Decision Tree Regression
+						◊ Random Forest Regression
+						◊ Support Vector Regression (SVR)
+						◊ Neural Network Regression (for large datasets)
+						◊ Gradient Boosting (e.g., XGBoost, LightGBM, CatBoost)
+			§ Categorical
+				□ Is the dataset large and complex?
+					® Yes:
+						◊ Neural Networks
+						◊ Deep Learning (e.g., CNNs for images, RNNs for sequential data)
+					® No:
+						◊ Logistic Regression (for small, interpretable datasets)
+						◊ Decision Tree Classification
+						◊ Random Forest Classification
+						◊ Support Vector Machines (SVM)
+						◊ Naive Bayes (for text or categorical data)
+	• Unsupervised
+		○ Is the goal to find patterns or group similar data points?
+			§ Yes:
+				□ Clustering
+					® K-Means (for spherical clusters)
+					® Hierarchical Clustering (for smaller datasets or when a hierarchy is needed)
+					® DBSCAN (for non-spherical clusters or noisy data)
+			§ No:
+				□ Dimensionality Reduction
+					® PCA (Principal Component Analysis, for variance preservation)
+					® t-SNE (for visualization, not downstream tasks)
+					® UMAP (for preserving both local and global structures)
+				□ Association Rule Learning
+					® Apriori
+					® Eclat
+• Is the problem a reinforcement learning task?
+	• Yes:
+		○ Q-Learning (off-policy, for simple environments)
+		○ Deep Q-Learning (for environments with high-dimensional state spaces)
+		○ SARSA (on-policy, for tasks requiring exploration)
+		○ Policy Gradient Methods (for continuous action spaces)
+
