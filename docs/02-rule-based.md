@@ -34,7 +34,7 @@ Explicitly encoded human logic (if-then rules) rather than learned models. Deter
   - Manual: ~15 min/enrollment → Automated: ~2 min
   - Volume: ~200 enrollments/month → ~43 hours saved/month
   - Savings: ~$2,150/month at $50/hr → ~$25,800 annually
-  - Build cost: ~$20,000 → >100% first‑year ROI (see `docs/appendix-roi-examples.md`)
+  - Build cost: ~$20,000 → >100% first‑year ROI (see [ROI examples](appendix-roi-examples.md))
 
 ## When to Use / Avoid
 - Use: Deterministic, auditable logic; stable policy enforcement; low data settings

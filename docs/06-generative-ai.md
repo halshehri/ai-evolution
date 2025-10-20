@@ -19,4 +19,4 @@ Transformer-based models that generate text, code, and images. In enterprises, R
 - Evaluation: Groundedness, faithfulness, factuality, safety; integrate eval + guardrails
 
 ## ROI Examples
-- Performance review “cold‑start” reduction with HITL can save ~70% drafting time (see ROI appendix)
+- Performance review “cold‑start” reduction with HITL can save ~70% drafting time (see [ROI examples](appendix-roi-examples.md))

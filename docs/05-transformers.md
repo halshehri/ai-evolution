@@ -16,7 +16,7 @@ Self-attention enables parallel processing, long-range dependencies, and transfe
 - Tooling: Hugging Face Transformers/PEFT, PyTorch/TensorFlow; ONNX/vLLM for serving
 
 ## Business Impact & ROI
-- Contract analysis “copilot” can accelerate legal review significantly (see ROI appendix)
+- Contract analysis “copilot” can accelerate legal review significantly (see [ROI examples](appendix-roi-examples.md))
 - Human-in-the-loop remains essential for high-stakes outputs
 
 ## When to Use / Avoid

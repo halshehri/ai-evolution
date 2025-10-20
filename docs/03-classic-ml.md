@@ -6,14 +6,14 @@ Train on input-output pairs (features → label) to learn a predictive function.
 - Skills: Feature engineering, cross-validation, bias/variance control
 - Data & Cost: 1K+ labeled examples; quality trumps quantity; ~$50K–$200K
 - Metrics: Accuracy, precision, recall, ROC/AUC; calibrate thresholds to business costs
-- ROI examples: Attrition prediction, fraud detection (see `docs/appendix-roi-examples.md`)
+- ROI examples: Attrition prediction, fraud detection (see [ROI examples](appendix-roi-examples.md))
 
 ## 2.2 Unsupervised Learning — Discover Structure
 Learn from unlabeled data to find clusters, anomalies, or embeddings.
 - Enterprise use: Employee/vendor segmentation, anomaly detection, survey/log analysis
 - Challenge: Interpreting patterns without ground truth; requires domain validation
 - Data & Cost: Often 10K+ samples for stability; ~$40K–$150K
-- ROI examples: Employee segmentation, fraud anomaly triage (see ROI appendix)
+- ROI examples: Employee segmentation, fraud anomaly triage (see [ROI examples](appendix-roi-examples.md))
 
 ## 2.3 Reinforcement Learning — Learn via Feedback
 An agent learns via trial-and-error to maximize a reward in an environment.

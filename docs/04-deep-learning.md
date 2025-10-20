@@ -9,7 +9,7 @@
 - Use cases: Document/image processing (OCR, classification), quality control, visual inspection
 - Approach: Prefer transfer learning; 1K–10K images per class often sufficient
 - Tooling: PyTorch/TensorFlow, torchvision, OpenCV, Tesseract/EasyOCR
-- ROI: Receipt processing and document digitization examples (see ROI appendix)
+- ROI: Receipt processing and document digitization examples (see [ROI examples](appendix-roi-examples.md))
 
 ## RNNs/LSTMs (Sequential)
 - Use cases: Time series and sequences where order matters; many NLP tasks now use Transformers
